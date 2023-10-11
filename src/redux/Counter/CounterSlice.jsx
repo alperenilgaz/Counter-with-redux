@@ -15,6 +15,7 @@ export const CounterSlice = createSlice({
         },
         byincreament:(state,action) => {
             state.value += Number(action.payload)
+            
         }
     },
 })
